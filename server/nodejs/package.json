@@ -1,0 +1,39 @@
+{
+	"name": "cfcomputing",
+	"version": "0.0.1",
+	"description": "extremely flexible web application",
+	"main": "index.js",
+	"dependencies": {
+		"pg": "^7.4.3",
+		"decache": "^4.4.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.0.0",
+		"@babel/preset-env": "^7.0.0",
+		"babel-core": "^7.0.0-bridge.0",
+		"babel-eslint": "^9.0.0",
+		"babel-jest": "^23.4.2",
+		"babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+		"eslint": "^5.5.0",
+		"eslint-plugin-node": "^7.0.1",
+		"jest": "^23.5.0",
+		"regenerator-runtime": "^0.12.1"
+	},
+	"scripts": {
+		"test": "jest --config=jest.config.js",
+		"start": "node index.js --port=80"
+	},
+	"engines": {
+		"node": ">=10.8.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cfcomputing/cfcomputing.git"
+	},
+	"author": "Chris Feerick",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/cfcomputing/cfcomputing/issues"
+	},
+	"homepage": "https://github.com/cfcomputing/cfcomputing#readme"
+}
